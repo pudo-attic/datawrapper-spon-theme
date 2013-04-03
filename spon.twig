@@ -1,0 +1,33 @@
+
+
+<div id="header">
+    {% if not plain %}
+    <h1><span>{{ title|purify }}</span></h1>
+
+        {% if intro %}
+        <p>{{ intro|purify|raw }}</p>
+        {% endif %}
+
+    {% endif %}
+    <!--a href="{{ chartUrlFs }}" target="_blank" class="fs-btn top-right" title="{% trans "Fullscreen" %}" data-toggle="fullscreen"></a-->
+</div>
+
+<div id="chart"></div>
+
+<div id="footer">
+    {% if not plain %}
+    <div class="footer-left">
+      {% if source %}
+          Quelle:
+          {% if sourceURL %}<a target="_blank" class="source" href="{{ sourceURL }}">{% endif %}{{ source }}{% if sourceURL %}</a>{% endif %},
+      {% endif %}
+      <a href="data">Daten</a>
+    </div>
+    <div class="footer-right">
+      <a class="logo" href="http://spiegel.de" target="_blank">
+          <img src="{{ ASSET_PATH }}spon-logo-bw.png" class="small" alt="SPIEGEL ONLINE" width="89" height="12" />
+          <img src="{{ ASSET_PATH }}spon-logo-bw-big.png" class="big" alt="SPIEGEL ONLINE" width="184" height="24" />
+      </a>
+    </div>
+{% endif %}
+</div>
