@@ -6,7 +6,8 @@
     Datawrapper.Themes.Spon = $.extend(true, {}, Datawrapper.Themes.Base, {
 
         colors: {
-            palette: ['#a030415', '#06234c', '#014d01', '#f9830e', '#5e3310', '#4fb4c'],
+            palette: ['#06234c', '#014d01', '#f9830e', '#a30415', '#5e3310', '#4fb4c',
+                      '#09336f', '#0c6e0c', '#ff9900', '#b70013', '#70451e', '#62335f'],
             positive: '#06234c',
             negative: '#014d01',
             background: '#ffffff'
