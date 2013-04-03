@@ -17,7 +17,7 @@ body.chart {
     line-height: 1.333em;
     font-weight: normal;
     font-variant: normal;
-    font-size: 0.75em; /* aus spContentWrapper */
+    font-size: 12px; /* aus spContentWrapper */
     margin: 0 5px;
     background: #fff;
     overflow: visible;
@@ -25,9 +25,10 @@ body.chart {
 }
 
 h1 {
-    font-size: 22px;
-    font-weight: 300;
-    margin: 0 0 10px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 15px;
     text-align: left;
 }
 
