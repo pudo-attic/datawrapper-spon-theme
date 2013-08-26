@@ -3,7 +3,7 @@
     // SPIEGEL ONLINE Theme
     // -------------
 
-    Datawrapper.Themes.Spon = $.extend(true, {}, Datawrapper.Themes.Base, {
+    dw.theme.register('spon', {
 
         colors: {
             palette: ['#06234c', '#014d01', '#f9830e', '#a30415', '#5e3310', '#4fb4c',
