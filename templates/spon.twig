@@ -1,10 +1,9 @@
-
 <div id="header">
     {% if not plain %}
-    <h1><span>{{ title|purify }}</span></h1>
+    <h1><span class="chart-title">{{ title|purify|raw }}</span></h1>
 
         {% if intro %}
-        <p>{{ intro|purify|raw }}</p>
+        <p class="chart-intro">{{ intro|purify|raw }}</p>
         {% endif %}
 
     {% endif %}
